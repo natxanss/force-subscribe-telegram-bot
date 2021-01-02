@@ -29,13 +29,13 @@
   "SUDO_USERS": {
    "description": "ID pemilik BOT",
    "required": true
-    }
-  },
-  "addons": [
-    {
-      "plan": "heroku-postgresql",
-      "options": {
-        "version": "12"
-      }
-    }
-  ]
+  }
+ },
+ "addons": [
+   {
+     "plan": "heroku-postgresql",
+     "options": {
+       "version": "12"
+     }
+    }]
+   }
