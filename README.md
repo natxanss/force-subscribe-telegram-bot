@@ -10,10 +10,13 @@
 
 ## Deploy
 
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/natxanss/force-subscribe-telegram-bot)
+
+
 ### Installation
 - Clone this repo
 ```
-git clone https://github.com/viperadnan-git/force-subscribe-telegram-bot
+git clone https://github.com/natxanss/force-subscribe-telegram-bot
 ```
 - Change directory
 ```
