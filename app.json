@@ -1,0 +1,41 @@
+{
+ "name": "Force Subscribe Bot",
+ "description": "An advanced Telethon Userbot, from @TeleBotSupport",
+ "logo": "https://telegra.ph/file/0b1d5cb8deeec7a506154.jpg",
+ "keywords": [
+  "telegram",
+  "userbot",
+  "TeleBot",
+  "modular",
+  "productivity"
+ ],
+ "repository": "https://github.com/natxanss/force-subscribe-telegram-bot/",
+ "website": "https://xditya.gitbook.io/telebot/",
+ "success_url": "https://t.me/TeleBotHelp/13",
+ "stack": "container",
+ "env": {
+  "BOT_TOKEN": {
+   "description": "Bot token, tersedia di @Botfather",
+   "required": true
+  },
+  "APP_ID": {
+   "description": "APP ID, tersedia di https://my.telegram.org/",
+   "required": true
+  },
+  "API_HASH": {
+   "description": "API HASH, tersedia di https://my.telegram.org/",
+   "required": true
+  },
+  "SUDO_USERS": {
+   "description": "ID pemilik BOT",
+   "required": true
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
+  ]
